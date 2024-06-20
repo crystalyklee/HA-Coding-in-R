@@ -24,11 +24,12 @@ if (!is.na(num) && num >= 100 && num <= 999) {
 #I found the function "strsplit" can do this, however I need to convert my numeric value to a character value before applying this function
 num_string <- as.character(num) 
 num_split <- strsplit(num_string, split = "") 
-#' I used the same function! I found you can actually subset the first 
+#' I used the same function! I found you can also just subset the first 
 #' element of your list by doing:
 #' num_split <- strsplit(num_string, split = "")[[1]] 
 #' instead of unlisting. Doing [[1]] allows you to access the first element
-#' in the list without flattening it. This might make things more concise. - CL
+#' in the list without combining all the elements by unlisting. This would be useful 
+#' if you had multiple elements in the list and only wanted to access one of them - CL
 
 
 #I tried cubing the result, however I got an error and realized the product was a list that needs to be converted to a vector in order to do an arithmetic operation to it
