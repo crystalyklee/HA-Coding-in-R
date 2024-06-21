@@ -56,6 +56,7 @@ if (num == num_sum) {
 # Great job! Everything ran smoothly and all the printed messages are clear. 
 #' To improve readability, I suggest separating some of your code off between comments
 #' with a blank line of space.
-#' Nice design! It's cool how you were able to stop the code 
+#' Nice design and logic! It's cool how you were able to stop the code 
 #' when checks weren't able to go through instead of allowing the code to 
 #' continue to the next checks.
+#' Good functionality -- everything runs perfectly!
